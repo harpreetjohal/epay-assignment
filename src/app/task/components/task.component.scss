@@ -1,0 +1,50 @@
+.container{
+    background: #f5f5f5;
+    padding: 0px 30px;
+}
+.contenteditable{
+    display:inline-block;
+    background-color:#ffffff;
+    color: #000000;
+    border: 1px solid #ddd;
+    height: 120px;
+    overflow: auto;
+   &:focus{
+       outline: none;
+} 
+}
+
+.button-plus{
+    background-color:#9ccb2e;
+    height: 120px;
+    text-align: center;
+}
+
+.button-minus{
+    background-color: #ccccce;
+    height: 120px;
+    text-align: center;
+}
+
+pre{
+    background-color: #000000;
+    min-height: 120px;
+    white-space: pre-wrap;
+    color: #fff;
+}
+
+.background-delete{
+    background-color: #cc5d5a;
+}
+
+button{
+    border-radius: 0px;
+    color: #fff;
+    font-size: 2rem;
+
+    &:focus, &:active, &:visited {
+        outline: none !important;
+        box-shadow: none;
+    } 
+
+}
