@@ -18,7 +18,7 @@ export class TaskComponent implements OnInit {
     }
 
     private getTasks(): void {
-        this.tasks = this.taskService.getTasks().sort((a: Task, b: Task) => a.id - b.id);;
+        this.tasks = this.taskService.getTasks().sort((a: Task, b: Task) => a.id - b.id);
     }
 
     public addNewTask(index: number): void {
